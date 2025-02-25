@@ -344,6 +344,9 @@
       max-width: 96rem !important;
     }
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-1\.5 {
     margin-top: calc(var(--spacing) * 1.5);
   }
@@ -457,6 +460,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -2117,4 +2123,7 @@ html {
   syntax: "*";
   inherits: false;
 }
-@property -
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
